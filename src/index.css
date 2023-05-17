@@ -19,3 +19,35 @@
   margin: 0;
   padding: 0;
 }
+
+.nav-container {
+  outline: 1px solid green;
+}
+
+.nav-wrapper {
+  max-width: 1250px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 36px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.nav-button {
+  margin-right: 5px;
+  border: 1px solid red;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
