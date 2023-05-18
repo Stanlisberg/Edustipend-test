@@ -5,7 +5,7 @@ function App() {
   
   return (
     <>
-      <div style={{height: '200vh'}}>
+      <div>
         <Navbar />
         <Sidebar />
       </div>
